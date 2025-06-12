@@ -1,0 +1,189 @@
+.nav-item {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 0.4rem 0.5rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.2s;
+}
+
+.nav-item:hover {
+  background-color: #f0f0f0;
+}
+
+.nav-item.active {
+  background-color: #e0f7fa;
+  color: #00796b;
+  font-weight: 600;
+}
+
+.logout-btn {
+  background: none;
+  border: none;
+  color: #333;
+  font-weight: 500;
+  padding: 0.4rem 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.logout-btn:hover {
+}
+
+/* Welcome Message */
+.welcome-banner {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.welcome-banner span {
+  color: teal;
+  font-weight: bold;
+}
+
+/* Form Section */
+.forms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.form-card {
+  flex: 1;
+  min-width: 320px;
+  background-color: white;
+  border: 2px dotted #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* Budget Cards */
+.budgets-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.budget-card {
+  flex: 1;
+  min-width: 260px;
+  background-color: white;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-top: 5px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.budget-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Progress bar */
+.progress-bar {
+  height: 10px;
+  background-color: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: inherit;
+}
+
+/* Budget Details */
+.budget-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* View Details Button */
+.view-details {
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Expense List */
+.recent-expenses {
+  background-color: white;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.expense-item {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Color Themes */
+.red { border-top-color: #ffcccc; }
+.orange { border-top-color: #ffd8a8; }
+.blue { border-top-color: #cce5ff; }
+.green { border-top-color: #d4edda; }
+.purple { border-top-color: #e6ccff; }
+.teal { border-top-color: #ccf2f4; }
+.pink { border-top-color: #fce4ec; }
+
+.progress-fill.red { background-color: #e53935; }
+.progress-fill.orange { background-color: #fb8c00; }
+.progress-fill.blue { background-color: #42a5f5; }
+.progress-fill.green { background-color: #4caf50; }
+.progress-fill.purple { background-color: #8e24aa; }
+.progress-fill.teal { background-color: #26a69a; }
+.progress-fill.pink { background-color: #ec407a; }
+
+.view-details.red { background-color: #ffebee; color: #b71c1c; }
+.view-details.orange { background-color: #fff3e0; color: #e65100; }
+.view-details.blue { background-color: #e3f2fd; color: #0d47a1; }
+.view-details.green { background-color: #e8f5e9; color: #1b5e20; }
+.view-details.purple { background-color: #f3e5f5; color: #4a148c; }
+.view-details.teal { background-color: #e0f7fa; color: #004d40; }
+.view-details.pink { background-color: #fce4ec; color: #880e4f; }
